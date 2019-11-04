@@ -1,0 +1,18 @@
+{
+	"city": [
+
+		{
+			"cityName": "New Delhi"
+		}, {
+			"cityName": "New York"
+		}, {
+			"cityName": "London"
+		}, {
+			"cityName": "Toronto"
+		}, {
+			"cityName": "Ottawa"
+		}
+
+	]
+
+}
