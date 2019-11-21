@@ -11,7 +11,7 @@ sap.ui.define([
 			var id = oEvent.getParameters().id.split("--")[2];
 			var oDialog = new sap.ui.xmlfragment("ValueHelp_Assignment.ValueHelp_Assignment.fragments.SelectDialog",this);
 			this.getView().addDependent(oDialog);
-			if(id == "id1"){
+			if(id === "id1"){
 				oDialog.bindAggregation("items",{
 				path:"city>/city",
 				template: new sap.m.StandardListItem({
